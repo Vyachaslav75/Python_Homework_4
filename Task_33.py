@@ -42,5 +42,5 @@ def write_file(user_list):
 num = input_value('Введите максимальную степень многочлена: ', 'Введите целое число')
 us_str=polinom(gen_list(num+1))
 print('Сгенерированный многочлен: ')
-print(us_str)
+print(f'k={num} => {us_str}')
 write_file(us_str)
