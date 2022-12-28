@@ -14,7 +14,7 @@ def input_value(msg1, msg2):
 def gen_list(list_lens):
     user_list = []
     for i in range(list_lens):
-        user_list.append(random.randint(0, 100))
+        user_list.append(random.randint(0, 101))
     return user_list
 
 
